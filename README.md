@@ -4,17 +4,22 @@ Awesome Docker
 A community driven list of useful Docker links
 
 
-## *Try Docker online*
+## Docker online
+
+*Try Docker online*
 
 * [Docker](https://www.docker.com/tryit/) — Try Docker online
 
 
-## *Use cases*
+## Use cases
+
 
 *[Use cases](https://www.docker.com/resources/usecases/) 
 
 
-## *Docker hub*
+## Docker hub
+
+*Docker repositories*
 
 *[Docker hub](https://registry.hub.docker.com/)
 
