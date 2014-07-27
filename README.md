@@ -13,15 +13,14 @@ A community driven list of useful Docker links
 
 ## Use cases
 
-
-*[Use cases](https://www.docker.com/resources/usecases/) 
+* [Use cases](https://www.docker.com/resources/usecases/) 
 
 
 ## Docker hub
 
 *Docker repositories*
 
-*[Docker hub](https://registry.hub.docker.com/)
+* [Docker hub](https://registry.hub.docker.com/)
 
 
 
