@@ -23,6 +23,13 @@ A community driven list of useful Docker links
 * [Docker hub](https://registry.hub.docker.com/)
 
 
+## Interesting and Useful Docker containers
+
+* A list of useful Docker containers* 
+
+* [Docker Image for Graphite](https://github.com/hopsoft/docker-graphite-statsd) - Graphite & Statsd can be a pain in the ass to setup. This Docker image will help you get up & running quickly.
+* [ZNC with Docker](https://github.com/shykes/docker-znc) - Run the ZNC irc bouncer on Docker 
+
 ## Slides
 
 *Great slides about Docker*
