@@ -23,6 +23,12 @@ A community driven list of useful Docker links
 * [Docker hub](https://registry.hub.docker.com/)
 
 
+## Slides
+
+*Great slides about Docker*
+
+* [Ship with Docker](https://speakerdeck.com/slok/ship-it-with-docker)
+
 
 ## Contributing
 
