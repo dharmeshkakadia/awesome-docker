@@ -40,7 +40,8 @@ A community driven list of useful Docker links
 
 Share folder
 ```shell
-    $ docker run -i -t -v /path/to/code:/src image /bin/bash
+    $ docker run -v /path/to/code:/src \
+    -i -t image /bin/bash
 ```
 
 ## Contributing
