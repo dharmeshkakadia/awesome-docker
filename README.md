@@ -38,11 +38,18 @@ A community driven list of useful Docker links
 
 ## Commands
 
-Share folder
+Share folder in container
+
+via shell:
 ```shell
     $ docker run -v /path/to/code:/src \
     -i -t image /bin/bash
 ```
+via dockerfile:
+
+    FROM busybox
+    VOLUME ["/var/volume1", "/var/volume2"]
+    CMD ["/bin/true"]
 
 ## Contributing
 
