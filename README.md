@@ -36,6 +36,12 @@ A community driven list of useful Docker links
 
 * [Ship with Docker](https://speakerdeck.com/slok/ship-it-with-docker)
 
+## Commands
+
+Share folder
+```shell
+    $ docker run -i -t -v /path/to/code:/src image /bin/bash
+```
 
 ## Contributing
 
