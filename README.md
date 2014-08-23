@@ -50,6 +50,22 @@ via dockerfile:
     FROM busybox
     VOLUME ["/var/volume1", "/var/volume2"]
     CMD ["/bin/true"]
+    
+Linked Containes
+`use --link postgresql:pg`
+
+    docker build -t postgresql .
+    docker run -rm -p --name pg postgresql
+    docker run -rm -t -i --link pg:pg postgresql bash
+    psql -h pg -d docker -U docker --password
+
+Port forwarding intro a container
+
+in boot2docker:
+
+    ssh -L 8000:localhost:8000
+    
+    
 
 ## Contributing
 
