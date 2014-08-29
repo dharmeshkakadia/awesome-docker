@@ -36,6 +36,36 @@ A community driven list of useful Docker links
 
 * [Ship with Docker](https://speakerdeck.com/slok/ship-it-with-docker)
 
+## Commands
+
+Share folder in container
+
+via shell:
+```shell
+    $ docker run -v /path/to/code:/src \
+    -i -t image /bin/bash
+```
+via dockerfile:
+
+    FROM busybox
+    VOLUME ["/var/volume1", "/var/volume2"]
+    CMD ["/bin/true"]
+    
+Linked Containes
+`use --link postgresql:pg`
+
+    docker build -t postgresql .
+    docker run -rm -p --name pg postgresql
+    docker run -rm -t -i --link pg:pg postgresql bash
+    psql -h pg -d docker -U docker --password
+
+Port forwarding intro a container
+
+in boot2docker:
+
+    ssh -L 8000:localhost:8000
+    
+    
 
 ## Contributing
 
