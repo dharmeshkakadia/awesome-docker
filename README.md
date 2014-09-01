@@ -10,6 +10,12 @@ A community driven list of useful Docker links
 
 * [Docker](https://www.docker.com/tryit/) — Try Docker online
 
+## Docker Management UI
+
+* [dockerui](https://github.com/crosbymichael/dockerui)
+* [Kitematic](https://kitematic.com/)
+* [Shipyard](http://shipyard-project.com/)
+
 
 ## Use cases
 
